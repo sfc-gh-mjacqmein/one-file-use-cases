@@ -116,8 +116,8 @@
   },
   "23_retail_merchant": {
     "path": "installers/23_retail_merchant/Retail_Merchant_Agent_Setup.sql",
-    "bytes": 692380,
-    "sha256": "81499de88dbb7922d5d36c353e368d5a95799353d5dcba5e31ea23b4ddfcfea8"
+    "bytes": 839467,
+    "sha256": "24ab2f9fe46306ac94d0b826217e034ef2151aae3b2d0a72014afb7b74b28344"
   },
   "24_voice_of_customer": {
     "path": "installers/24_voice_of_customer/Voice_of_Customer_Setup.sql",
@@ -133,6 +133,11 @@
     "path": "installers/26_embedded_storefront/Embedded_Storefront_Setup.sql",
     "bytes": 177301,
     "sha256": "4f78658fc7edcc7942d8cc32bb863d68e0c0e30df391a71ae21dba0f0c755038"
+  },
+  "27_mobile_pricing": {
+    "path": "installers/27_mobile_pricing/Mobile_Pricing_Setup.sql",
+    "bytes": 841294,
+    "sha256": "2ec9e0b4acefaa1e2e6ac5512ed575454c5696c7336d27290319d26eb4350846"
   },
   "28_delegated_orchestration": {
     "path": "installers/28_delegated_orchestration/Delegated_Orchestration_Setup.sql",
