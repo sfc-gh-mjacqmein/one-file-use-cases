@@ -13,6 +13,28 @@ invented. The installer uses isolated roles and its owned database. It does not
 resize shared compute or install scheduled refreshes. Warehouse, container,
 storage and AI use incur charges.
 
+## Store Manager View
+
+The profile menu also offers a store manager for one Harbor Retail store, chosen
+from the brand's six physical stores (Atlanta Central by default). It shows that
+store's week: twelve signals from `DATA.STORE_SIGNALS` against the brand's other
+stores, its agents grouped by availability, sell-through, sales against peers,
+customer voice, loss prevention and its shopping center, and today's decisions
+built from those signals. Decisions and notes are recorded in the viewer's
+workspace; nothing is sent.
+
+**Floor** opens a store builder on a researched sample layout, not the store's own
+floor, stocked with that store's sizes from Snowflake as of September 13, 2026.
+Changes are scored against the sample and saved in the workspace; the Sales, Shrink
+and Effort scores are modelled. **Center** compares the store with the other brands'
+stores in its shopping center, in percentages and points only. The thirteen shopping
+centers are fictional, defined for this demo, and every sales figure is synthetic.
+
+Store questions go to a separate store agent, `STORE_AGENT_HARBOR`, over two
+semantic views. Other brands' dollar figures and mall foot traffic are not in the
+data, and the agent says so. The store manager is available only with the synthetic
+demo data; customer data mode does not offer it.
+
 ## Connect Customer Data
 
 Open the globe control, **Source discovery**, in the existing workspace.
@@ -104,11 +126,19 @@ Select the existing workspace database and run
 `backend/dist/Snowflake_Intelligence_Workspace_Upgrade.sql`. This source-only
 upgrade validates the ownership marker and existing container app, backs up its
 live source inside the account, stages the new code, copies it into the existing
-app and commits. It preserves `deployment.json`, the app object, existing grants
-and all business/demo tables, and attempts the three caller-AI grants above.
-The receipt contains the app URL, backup path, exact source rollback SQL and
-`CALLER_AI_STATUS`. Source rollback does not revoke caller grants. Open a fresh
-app session after upgrading.
+app and commits. It preserves the app object, existing grants, saved work and the
+app's own `deployment.json` settings, and attempts the three caller-AI grants above.
+
+It also adds the store manager view: the store tables, semantic views and agent,
+and `store_manager` in `deployment.json`. It re-creates the four synthetic retail
+views with their grants kept. That changes two stores' synthetic figures, so their
+shopping centers have a stand-out: one Metro Apparel store's new sizes now sell, and
+one Grove Goods store sells less in the final week. If this step fails, the source
+upgrade still completes and `STORE_MANAGER_STATUS` says why.
+
+The receipt contains the app URL, backup path, exact source rollback SQL,
+`CALLER_AI_STATUS` and `STORE_MANAGER_STATUS`. Source rollback does not revoke caller
+grants or remove the store objects. Open a fresh app session after upgrading.
 
 An ordinary setup rerun still preserves the deployed app source. It is not a
 substitute for this upgrade file. The standalone HTML remains an offline visual
@@ -121,6 +151,12 @@ results, bounded query generation, dataset isolation and the existing demo
 contracts. Separate hosted, distinct-user policy tests are required before
 calling the customer adapter production-ready. A created Streamlit object does
 not prove that it rendered or successfully queried customer data.
+
+Hosted checks on owned test apps covered the store manager view: the Floor builder
+saved a change and reopened it, the center view and store questions matched the
+synthetic data, and questions about other brands' dollars or foot traffic were
+refused. Setup and the upgrade each run as one statement under Snowflake's 1 MB
+query-text guidance.
 
 Call `OPS.TEARDOWN(NULL)` in the installed database to read the removal contract.
 Actual teardown requires explicit confirmation and deletes that database and its
