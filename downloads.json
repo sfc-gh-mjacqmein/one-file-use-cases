@@ -6,8 +6,8 @@
   },
   "01_customer_360": {
     "path": "installers/01_customer_360/Customer_360_Setup.sql",
-    "bytes": 843820,
-    "sha256": "7754c456718fbc20104838c891cf26bd188d57e16cf3a0a7220e050c435c84ef"
+    "bytes": 936541,
+    "sha256": "a7f0e25b3162d1c8e63185d3856eb42635262ce590802f84c281330265ecc820"
   },
   "02_identity_resolution": {
     "path": "installers/02_identity_resolution/Identity_Resolution_Setup.sql",
@@ -91,13 +91,13 @@
   },
   "18_transformation_pipeline": {
     "path": "installers/18_transformation_pipeline/Transformation_Pipeline_Setup.sql",
-    "bytes": 729370,
-    "sha256": "31da21247e400f00aed1d36f8786f4a4ffa9425cfaf1c12eaf50ec4b2f77f100"
+    "bytes": 862732,
+    "sha256": "47bc852ed3660be27582c5d509cec1058c2477ee5a2627c3761dd1a6d61abfdc"
   },
   "19_app_build": {
     "path": "installers/19_app_build/App_Build_Setup.sql",
-    "bytes": 703245,
-    "sha256": "d523e024667c35647fb57c76ea46a8725ce7392fce4d4c1cb68817cdf4afb5d2"
+    "bytes": 866293,
+    "sha256": "540d3db7a38b099630bcd125e614d01fea9f6a5b89d96b3e4c6601ca185c7934"
   },
   "20_internal_marketplace": {
     "path": "installers/20_internal_marketplace/Internal_Marketplace_Setup.sql",
@@ -176,8 +176,8 @@
   },
   "m1_spend_pacing": {
     "path": "installers/m1_spend_pacing/Spend_Pacing_Setup.sql",
-    "bytes": 689801,
-    "sha256": "bcebcf0491a1d81a7bc50149e9c651de78d4950754c44281ed4ff5fdabb0c394"
+    "bytes": 845933,
+    "sha256": "435efe5441d582cf43f43179b0758f4d99386a87f4e74f819e1a8866c38ff158"
   },
   "sc1_vendor_otif": {
     "path": "installers/sc1_vendor_otif/Vendor_OTIF_Scorecard_Setup.sql",
