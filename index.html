@@ -2898,6 +2898,7 @@ function actLadder(it) {
     section.appendChild(el('p', 'step__note', 'Run All looks for this use case\'s tables using metadata only (semantic views, Cortex Sense when enabled, and one small AI call), builds the app in its own schema, and stops. No source rows are processed yet. It installs into the ONESHOT database, created if needed, or the worksheet\'s database if your role cannot create one. Open OPEN_APP_URL in the result.'));
     section.appendChild(el('p', 'step__note', 'Discovery, LIMITED and PRODUCTION are buttons in the app. Review the sources it found, run LIMITED on a bounded slice, then deploy PRODUCTION when the results look right. Pausing and removing the installation are in the app too.'));
     section.appendChild(el('p', 'step__note', 'If nothing suitable is visible to your role, it installs clearly labelled sample data instead. Running the file again changes nothing. AI inference and warehouse work incur usage charges.'));
+    section.appendChild(el('p', 'step__note', 'If you run the file as a role other than ACCOUNTADMIN, that role needs READ SESSION for the app to know who is signed in: an administrator runs GRANT READ SESSION ON ACCOUNT TO ROLE <your role>. Without it, the app opens but refuses every phase change.'));
     return section;
   }
   if (it.steps?.oneClick) {
