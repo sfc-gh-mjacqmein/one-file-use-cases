@@ -46,8 +46,8 @@
   },
   "09_rmn_cleanroom": {
     "path": "installers/09_rmn_cleanroom/RMN_Cleanroom_Setup.sql",
-    "bytes": 836364,
-    "sha256": "8819feea2534b934f1306f8d35d651805c9b59763e72d65661999a9c4c02921b"
+    "bytes": 923417,
+    "sha256": "2ae6949ce0d7ff68e97cad1e9067116f40888848e4ccac4553fd2fa053366fc3"
   },
   "10_streaming_ingest": {
     "path": "installers/10_streaming_ingest/Streaming_Ingest_Setup.sql",
