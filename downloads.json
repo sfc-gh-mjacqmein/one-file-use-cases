@@ -166,8 +166,8 @@
   },
   "f1_recovery_audit": {
     "path": "installers/f1_recovery_audit/Recovery_Audit_Setup.sql",
-    "bytes": 678344,
-    "sha256": "0759a4dba8ee4e128ab7781ad3bab92456fb63d5e90c181d4c3602fb7f076a08"
+    "bytes": 848416,
+    "sha256": "f064b4f16c198e91968a01e3f1fb2192d3a9fdd4cca0482cb6c101cf98b01c6a"
   },
   "hr1_workforce_voice": {
     "path": "installers/hr1_workforce_voice/Voice_of_the_Workforce_Setup.sql",
