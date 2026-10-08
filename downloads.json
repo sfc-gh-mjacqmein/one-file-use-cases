@@ -156,8 +156,8 @@
   },
   "36_context_house": {
     "path": "installers/36_context_house/Context_House_Setup.sql",
-    "bytes": 917524,
-    "sha256": "024a20264980ed7cddf9a26fdd11b86d63d7f21c11839713948706d8ff3dbb7a"
+    "bytes": 1088224,
+    "sha256": "2cfa89722193a78e5126845c5d4a582efb259c7dce7a2fd0311542357bdce801"
   },
   "d1_search_quality": {
     "path": "installers/d1_search_quality/Site_Search_Quality_Monitor_Setup.sql",
