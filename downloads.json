@@ -6,8 +6,8 @@
   },
   "01_customer_360": {
     "path": "installers/01_customer_360/Customer_360_Setup.sql",
-    "bytes": 936541,
-    "sha256": "a7f0e25b3162d1c8e63185d3856eb42635262ce590802f84c281330265ecc820"
+    "bytes": 939116,
+    "sha256": "128b4e92a807dc8e32e24d78258036320861671a0936c95624d071317ffb06a5"
   },
   "02_identity_resolution": {
     "path": "installers/02_identity_resolution/Identity_Resolution_Setup.sql",
@@ -36,18 +36,18 @@
   },
   "07_semantic_model_from_history": {
     "path": "installers/07_semantic_model_from_history/Semantic_Model_From_History_Setup.sql",
-    "bytes": 750256,
-    "sha256": "30f93deffc473f28042f85f9cebb9fe425f324e359695ed6178eb4b58c9e7bc8"
+    "bytes": 873178,
+    "sha256": "d4fb237798ce55dc23b629bd28699a09846ba22dcb9735b7cd2c78560dc3ca2f"
   },
   "08_marketplace_enrichment": {
     "path": "installers/08_marketplace_enrichment/Marketplace_Enrichment_Setup.sql",
-    "bytes": 727613,
-    "sha256": "64fa38dc0e48f6b9766c2dfde2942f6631353b3c8a59722147892a502eb34b30"
+    "bytes": 856851,
+    "sha256": "97478be46b4d51346ed01afa6e3ef0ea1e2bbe2821ffd392d82d05f088554772"
   },
   "09_rmn_cleanroom": {
     "path": "installers/09_rmn_cleanroom/RMN_Cleanroom_Setup.sql",
-    "bytes": 923417,
-    "sha256": "2ae6949ce0d7ff68e97cad1e9067116f40888848e4ccac4553fd2fa053366fc3"
+    "bytes": 925336,
+    "sha256": "b3b174bcba6abe1fb8aba44f2bbe628327020f7a3bb202822d1beae01a6dd714"
   },
   "10_streaming_ingest": {
     "path": "installers/10_streaming_ingest/Streaming_Ingest_Setup.sql",
@@ -91,13 +91,13 @@
   },
   "18_transformation_pipeline": {
     "path": "installers/18_transformation_pipeline/Transformation_Pipeline_Setup.sql",
-    "bytes": 862732,
-    "sha256": "47bc852ed3660be27582c5d509cec1058c2477ee5a2627c3761dd1a6d61abfdc"
+    "bytes": 864879,
+    "sha256": "0612304d5350c3cf427869ecf5f28d4924ca2c06236e7a5c4a8386fdbd048c72"
   },
   "19_app_build": {
     "path": "installers/19_app_build/App_Build_Setup.sql",
-    "bytes": 866293,
-    "sha256": "540d3db7a38b099630bcd125e614d01fea9f6a5b89d96b3e4c6601ca185c7934"
+    "bytes": 868668,
+    "sha256": "2d6653d953fc2e4bc56416ee5b5dc97677e9fb5756d7ad54e81ce8d5797da2e4"
   },
   "20_internal_marketplace": {
     "path": "installers/20_internal_marketplace/Internal_Marketplace_Setup.sql",
@@ -116,8 +116,8 @@
   },
   "23_retail_merchant": {
     "path": "installers/23_retail_merchant/Retail_Merchant_Agent_Setup.sql",
-    "bytes": 839467,
-    "sha256": "24ab2f9fe46306ac94d0b826217e034ef2151aae3b2d0a72014afb7b74b28344"
+    "bytes": 841410,
+    "sha256": "87cb3c5ea54442052670dd795716c6e1e756f8e7674969ebc7cb4f200e19ef41"
   },
   "24_voice_of_customer": {
     "path": "installers/24_voice_of_customer/Voice_of_Customer_Setup.sql",
@@ -136,8 +136,8 @@
   },
   "27_mobile_pricing": {
     "path": "installers/27_mobile_pricing/Mobile_Pricing_Setup.sql",
-    "bytes": 841294,
-    "sha256": "2ec9e0b4acefaa1e2e6ac5512ed575454c5696c7336d27290319d26eb4350846"
+    "bytes": 843738,
+    "sha256": "18ab36d3115d937626b45bdec03ff45371c72ddee7906b8d398229e30b4e6faa"
   },
   "28_delegated_orchestration": {
     "path": "installers/28_delegated_orchestration/Delegated_Orchestration_Setup.sql",
@@ -166,8 +166,8 @@
   },
   "f1_recovery_audit": {
     "path": "installers/f1_recovery_audit/Recovery_Audit_Setup.sql",
-    "bytes": 848416,
-    "sha256": "f064b4f16c198e91968a01e3f1fb2192d3a9fdd4cca0482cb6c101cf98b01c6a"
+    "bytes": 850343,
+    "sha256": "1efb1ab66c84cf86c683702d5feb148a706e3de0f6e03209d1b24c091d27a094"
   },
   "hr1_workforce_voice": {
     "path": "installers/hr1_workforce_voice/Voice_of_the_Workforce_Setup.sql",
@@ -181,8 +181,8 @@
   },
   "m1_spend_pacing": {
     "path": "installers/m1_spend_pacing/Spend_Pacing_Setup.sql",
-    "bytes": 845933,
-    "sha256": "435efe5441d582cf43f43179b0758f4d99386a87f4e74f819e1a8866c38ff158"
+    "bytes": 847892,
+    "sha256": "ea3f9b6c0ae19eed20c9ce4186fe36ad97c5f2efdbeee76e36773a11cd1b1cff"
   },
   "sc1_vendor_otif": {
     "path": "installers/sc1_vendor_otif/Vendor_OTIF_Scorecard_Setup.sql",
