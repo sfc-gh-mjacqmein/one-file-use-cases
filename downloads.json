@@ -179,6 +179,11 @@
     "bytes": 685038,
     "sha256": "f1be6ee0e5c0e786607188e6cc12f7d8d0eadf1d1f06b33cc38a1ce078897ccc"
   },
+  "l2_legal_handoff": {
+    "path": "installers/l2_legal_handoff/Legal_Handoff_Setup.sql",
+    "bytes": 1114445,
+    "sha256": "aeaacb694cefb158610120b2b494ab5d956f91a2f542bdb61e667bdd3ce6e060"
+  },
   "m1_spend_pacing": {
     "path": "installers/m1_spend_pacing/Spend_Pacing_Setup.sql",
     "bytes": 847892,
