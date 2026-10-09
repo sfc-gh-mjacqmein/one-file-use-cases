@@ -59,16 +59,6 @@
     "bytes": 718682,
     "sha256": "46506072c3d3c5999d1769d107597104767d17956caa5867105c6b870be2ca24"
   },
-  "12_data_quality": {
-    "path": "installers/12_data_quality/Data_Quality_Setup.sql",
-    "bytes": 691815,
-    "sha256": "b516e4ca492d82aaff4dfb7670a341f71c71ff4f786ac0867951be886913fb55"
-  },
-  "13_governance": {
-    "path": "installers/13_governance/Governance_Setup.sql",
-    "bytes": 708690,
-    "sha256": "e4bc8f2fc9955dc5b5be8630b367f1858ea57646651a4fbe73b3f6ee022aa76b"
-  },
   "14_agent_deployment": {
     "path": "installers/14_agent_deployment/Agent_Deployment_Setup.sql",
     "bytes": 765910,
@@ -78,11 +68,6 @@
     "path": "installers/15_conversational_assistant/Conversational_Assistant_Setup.sql",
     "bytes": 678311,
     "sha256": "2e3e160e39c1c962d71e85716a0b7ea53768b5d7c27ae59ee900d8ddd6c6eaa9"
-  },
-  "16_interactive_analytics": {
-    "path": "installers/16_interactive_analytics/Interactive_Analytics_Setup.sql",
-    "bytes": 735459,
-    "sha256": "1ea0082fe79335727977b4b86893ad1fe9fb4669e312cc4745627cb3988b2e24"
   },
   "17_lakehouse_analytics": {
     "path": "installers/17_lakehouse_analytics/Lakehouse_Analytics.sql",
@@ -109,11 +94,6 @@
     "bytes": 718321,
     "sha256": "03b003e9ff94aac2210155c34f8ff5b556554d9fc0d2186ce2f213a5a3456d37"
   },
-  "22_fraud_investigation": {
-    "path": "installers/22_fraud_investigation/Proactive_Fraud_Investigation_Setup.sql",
-    "bytes": 792628,
-    "sha256": "67a74b904161cf743c1c233a3e271d0b8c55a4927e7575a97f732b59bcd45a6d"
-  },
   "23_retail_merchant": {
     "path": "installers/23_retail_merchant/Retail_Merchant_Agent_Setup.sql",
     "bytes": 841410,
@@ -123,11 +103,6 @@
     "path": "installers/24_voice_of_customer/Voice_of_Customer_Setup.sql",
     "bytes": 750108,
     "sha256": "4338c47dfea8c641c7214b2ce7ba04592ca876af3265d3d260b3c7b9d0c1bbc9"
-  },
-  "25_warehouse_generation": {
-    "path": "installers/25_warehouse_generation/Warehouse_Generation_Setup.sql",
-    "bytes": 759271,
-    "sha256": "a725a6fc1a0a43e2febcd18b956e64080cf4fd6e302d5212b2fc7bda1724f102"
   },
   "26_embedded_storefront": {
     "path": "installers/26_embedded_storefront/Embedded_Storefront_Setup.sql",
