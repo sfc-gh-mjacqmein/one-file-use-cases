@@ -171,7 +171,7 @@
   },
   "intelligence_workspace": {
     "path": "installers/intelligence_workspace/Snowflake_Intelligence_Workspace_Setup.sql",
-    "sha256": "5e893feeccb73517f73f6a0801ab8c8350fb569074e80b9ffd645f5662cbc644",
-    "bytes": 790171
+    "sha256": "0715f6ea2f3e3d7783baecef225bf225eb05e411dc95396f96e1d8db49d5b12f",
+    "bytes": 814087
   }
 }

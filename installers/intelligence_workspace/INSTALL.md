@@ -136,6 +136,13 @@ shopping centers have a stand-out: one Metro Apparel store's new sizes now sell,
 one Grove Goods store sells less in the final week. If this step fails, the source
 upgrade still completes and `STORE_MANAGER_STATUS` says why.
 
+The same step adds the Ops view's snapshot, `DATA.OPS_PERFORMANCE`, and reshapes the
+synthetic history before August 17, 2026, so last month and last year differ by brand
+and store. Figures from August 17 on are unchanged. Run the upgrade as the role that owns
+the workspace database, with the app's owner role granted to it: the app's owner role
+alone cannot re-create the retail views, and `STORE_MANAGER_STATUS` then reports
+`UNAVAILABLE`.
+
 The receipt contains the app URL, backup path, exact source rollback SQL,
 `CALLER_AI_STATUS` and `STORE_MANAGER_STATUS`. Source rollback does not revoke caller
 grants or remove the store objects. Open a fresh app session after upgrading.
