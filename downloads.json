@@ -6,8 +6,8 @@
   },
   "01_customer_360": {
     "path": "installers/01_customer_360/Customer_360_Setup.sql",
-    "bytes": 955660,
-    "sha256": "fc61d0816bc60dfe6162d4e555fb3c15dde660da92b23ab772f87462c8af2ca3"
+    "bytes": 957864,
+    "sha256": "8973db7461f6ae14f9fc0f30d543e9794c1825415dd6d10048faace8d1d52e28"
   },
   "02_identity_resolution": {
     "path": "installers/02_identity_resolution/Identity_Resolution_Setup.sql",
@@ -21,8 +21,8 @@
   },
   "04_snowpark_migration": {
     "path": "installers/04_snowpark_migration/Snowpark_Migration_Setup.sql",
-    "bytes": 773734,
-    "sha256": "fb65e772d10c1c578429ed3db4f982eee3c8bf7c4e70ad6f621288a10577720c"
+    "bytes": 943204,
+    "sha256": "28ceef7c02bad0c31665ce8f847254fddf3444aaf43f1fb4a2d0c1cd0e5ae2ea"
   },
   "05_ml_migration": {
     "path": "installers/05_ml_migration/ML_Migration_Setup.sql",
@@ -36,13 +36,13 @@
   },
   "07_semantic_model_from_history": {
     "path": "installers/07_semantic_model_from_history/Semantic_Model_From_History_Setup.sql",
-    "bytes": 873178,
-    "sha256": "d4fb237798ce55dc23b629bd28699a09846ba22dcb9735b7cd2c78560dc3ca2f"
+    "bytes": 924306,
+    "sha256": "81959be9c7d64a38eb25a40c7f30a081aa36a108bd4b254009bb4487013be00e"
   },
   "08_marketplace_enrichment": {
     "path": "installers/08_marketplace_enrichment/Marketplace_Enrichment_Setup.sql",
-    "bytes": 875543,
-    "sha256": "0227f8d8b7beed47831abb04868ad3a6c3e520ddef40e1f5b2cec7112d3b17f0"
+    "bytes": 877727,
+    "sha256": "6bf5d1f245757c60ae857032b993a6c0de1b8f43ce49448ff681b94f887f4c0a"
   },
   "09_rmn_cleanroom": {
     "path": "installers/09_rmn_cleanroom/RMN_Cleanroom_Setup.sql",
@@ -56,8 +56,8 @@
   },
   "11_cost_efficiency": {
     "path": "installers/11_cost_efficiency/Cost_Efficiency_Setup.sql",
-    "bytes": 718682,
-    "sha256": "46506072c3d3c5999d1769d107597104767d17956caa5867105c6b870be2ca24"
+    "bytes": 927895,
+    "sha256": "06da80d2fc6f29d61ace5a4a4d5f2401e86bceac2bef93c6fad1dadc2775e3f8"
   },
   "14_agent_deployment": {
     "path": "installers/14_agent_deployment/Agent_Deployment_Setup.sql",
@@ -76,13 +76,13 @@
   },
   "18_transformation_pipeline": {
     "path": "installers/18_transformation_pipeline/Transformation_Pipeline_Setup.sql",
-    "bytes": 882879,
-    "sha256": "ff9b36535d8a67590df3ebbe1234a1e4040e53d95c195e331dedf5efbfc310b5"
+    "bytes": 884575,
+    "sha256": "25be431c4bbec184151cee85b667c9fe40cda91842afc61290bbd6f40cb689d1"
   },
   "19_app_build": {
     "path": "installers/19_app_build/App_Build_Setup.sql",
-    "bytes": 886284,
-    "sha256": "91dcc4ccf3b79f6426eaa1a6e79da8a3d60b24d716ba8a0f9314ef03a8394d6b"
+    "bytes": 888680,
+    "sha256": "5a144d68abfe6a740f166274f7afc47521bb29e40b3e5eb1c5a7dc8f284aa6b1"
   },
   "20_internal_marketplace": {
     "path": "installers/20_internal_marketplace/Internal_Marketplace_Setup.sql",
