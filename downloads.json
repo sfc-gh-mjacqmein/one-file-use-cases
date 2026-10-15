@@ -71,8 +71,8 @@
   },
   "17_lakehouse_analytics": {
     "path": "installers/17_lakehouse_analytics/Lakehouse_Analytics.sql",
-    "bytes": 674703,
-    "sha256": "10fbe9756d183e2241ad82d0615b4be133adad036a914e5f7f57b3f56414a6a6"
+    "bytes": 822998,
+    "sha256": "8dcd64736f36adbf79549a47235ac8d1b795ed78486da31112f9ad30215a684c"
   },
   "18_transformation_pipeline": {
     "path": "installers/18_transformation_pipeline/Transformation_Pipeline_Setup.sql",
