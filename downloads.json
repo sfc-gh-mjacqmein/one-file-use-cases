@@ -6,8 +6,8 @@
   },
   "01_customer_360": {
     "path": "installers/01_customer_360/Customer_360_Setup.sql",
-    "bytes": 957864,
-    "sha256": "8973db7461f6ae14f9fc0f30d543e9794c1825415dd6d10048faace8d1d52e28"
+    "bytes": 957968,
+    "sha256": "200902017a3e7a49f454539a908b1486cbfaf3cef0d49464281385bb21e71e00"
   },
   "02_identity_resolution": {
     "path": "installers/02_identity_resolution/Identity_Resolution_Setup.sql",
@@ -21,8 +21,8 @@
   },
   "04_snowpark_migration": {
     "path": "installers/04_snowpark_migration/Snowpark_Migration_Setup.sql",
-    "bytes": 943204,
-    "sha256": "28ceef7c02bad0c31665ce8f847254fddf3444aaf43f1fb4a2d0c1cd0e5ae2ea"
+    "bytes": 943464,
+    "sha256": "6d41ae97408a0a794cc905b0cb1948b61b2ad5fe0a608e81406ab19ee59a084c"
   },
   "05_ml_migration": {
     "path": "installers/05_ml_migration/ML_Migration_Setup.sql",
@@ -41,13 +41,13 @@
   },
   "08_marketplace_enrichment": {
     "path": "installers/08_marketplace_enrichment/Marketplace_Enrichment_Setup.sql",
-    "bytes": 877727,
-    "sha256": "6bf5d1f245757c60ae857032b993a6c0de1b8f43ce49448ff681b94f887f4c0a"
+    "bytes": 877811,
+    "sha256": "6181c59bf171b11df5694c0bb8ca6fb99eeb332abd33a444311094e07147039f"
   },
   "09_rmn_cleanroom": {
     "path": "installers/09_rmn_cleanroom/RMN_Cleanroom_Setup.sql",
-    "bytes": 975388,
-    "sha256": "c5399df12b5b7eb6485f4bc26166e46ccfe6fe4c0dd0bd09e40428217ef96a43"
+    "bytes": 977880,
+    "sha256": "dcf20994dc883b42af336315a950fc55bfa4fb70dbe481c48324af751cdc3d98"
   },
   "10_streaming_ingest": {
     "path": "installers/10_streaming_ingest/Streaming_Ingest_Setup.sql",
@@ -56,33 +56,33 @@
   },
   "11_cost_efficiency": {
     "path": "installers/11_cost_efficiency/Cost_Efficiency_Setup.sql",
-    "bytes": 927895,
-    "sha256": "06da80d2fc6f29d61ace5a4a4d5f2401e86bceac2bef93c6fad1dadc2775e3f8"
+    "bytes": 929219,
+    "sha256": "11acc1d872ebd9d56dfa6b18927b86db0f8bc53db8377cea11b14f01cdd7b620"
   },
   "14_agent_deployment": {
     "path": "installers/14_agent_deployment/Agent_Deployment_Setup.sql",
-    "bytes": 972557,
-    "sha256": "b9fba32ae29b4727da28ff9f31556c3243e2a141d8178efc92c2ba5992d4e6f8"
+    "bytes": 974653,
+    "sha256": "6ac8843e303c7cd028fc059fad8c5d62c9a57dca4c372fabde94a3c31960cdea"
   },
   "15_conversational_assistant": {
     "path": "installers/15_conversational_assistant/Conversational_Assistant_Setup.sql",
-    "bytes": 916968,
-    "sha256": "7fe139a88a8c69d75f049da4f3c2ecbfc2b3ccd77387389f430999ac37857d27"
+    "bytes": 919261,
+    "sha256": "f6708049665b415739372a7926ad5974c8ad81504dc37225ac4ed882e40cb75c"
   },
   "17_lakehouse_analytics": {
     "path": "installers/17_lakehouse_analytics/Lakehouse_Analytics.sql",
-    "bytes": 822998,
-    "sha256": "8dcd64736f36adbf79549a47235ac8d1b795ed78486da31112f9ad30215a684c"
+    "bytes": 828302,
+    "sha256": "3506a3361f995f0be461fcb6c8cbd710821e7c1ae99b822f1f2d3e36114e3c91"
   },
   "18_transformation_pipeline": {
     "path": "installers/18_transformation_pipeline/Transformation_Pipeline_Setup.sql",
-    "bytes": 884575,
-    "sha256": "25be431c4bbec184151cee85b667c9fe40cda91842afc61290bbd6f40cb689d1"
+    "bytes": 884635,
+    "sha256": "33ac6d6c4f0dde84ff87a6df045f5f4725555a178e48e821d0598c0bf1864336"
   },
   "19_app_build": {
     "path": "installers/19_app_build/App_Build_Setup.sql",
-    "bytes": 888680,
-    "sha256": "5a144d68abfe6a740f166274f7afc47521bb29e40b3e5eb1c5a7dc8f284aa6b1"
+    "bytes": 888768,
+    "sha256": "ea228c294ca081673cae2025a4519dd4ce15d650d03c50f6a304f288fcbd2e8a"
   },
   "20_internal_marketplace": {
     "path": "installers/20_internal_marketplace/Internal_Marketplace_Setup.sql",
@@ -96,8 +96,8 @@
   },
   "23_retail_merchant": {
     "path": "installers/23_retail_merchant/Retail_Merchant_Agent_Setup.sql",
-    "bytes": 890642,
-    "sha256": "7edc46ef118e7ab6f255bb5b877b329ef1b92e1d3d7bf00e270c5c46074ab81d"
+    "bytes": 893210,
+    "sha256": "beaf208172cc750deae789c590b43a4ba1d4f19e2b7adb8c91242a1898f336aa"
   },
   "24_voice_of_customer": {
     "path": "installers/24_voice_of_customer/Voice_of_Customer_Setup.sql",
@@ -111,8 +111,8 @@
   },
   "27_mobile_pricing": {
     "path": "installers/27_mobile_pricing/Mobile_Pricing_Setup.sql",
-    "bytes": 863450,
-    "sha256": "ec71b79946dc1196bde84b32c3d51eb904d906300627cc760c14c13f05cd41a5"
+    "bytes": 865794,
+    "sha256": "327e68a196d6344933945a01fd97964040a16109ab65c6e133f88ec6d2111333"
   },
   "28_delegated_orchestration": {
     "path": "installers/28_delegated_orchestration/Delegated_Orchestration_Setup.sql",
@@ -136,13 +136,13 @@
   },
   "d1_search_quality": {
     "path": "installers/d1_search_quality/Site_Search_Quality_Monitor_Setup.sql",
-    "bytes": 927999,
-    "sha256": "14ead3ba777c14858a5374410f0aa434f7a97330d2186f06f1fe2410616c735f"
+    "bytes": 930507,
+    "sha256": "25cc65917ca75648929c9f6bc016afbda4b953f26c780c407ddfba68aadc4158"
   },
   "f1_recovery_audit": {
     "path": "installers/f1_recovery_audit/Recovery_Audit_Setup.sql",
-    "bytes": 869311,
-    "sha256": "47bd57f50a8b717761f19ced7d809390179131e2fe885cd311a12b0718b35295"
+    "bytes": 871415,
+    "sha256": "03dbdee81ee4be4d462596c7021e0e8abe978bef9ed0c6f7fff917272286c021"
   },
   "hr1_workforce_voice": {
     "path": "installers/hr1_workforce_voice/Voice_of_the_Workforce_Setup.sql",
@@ -161,13 +161,13 @@
   },
   "m1_spend_pacing": {
     "path": "installers/m1_spend_pacing/Spend_Pacing_Setup.sql",
-    "bytes": 866924,
-    "sha256": "80e121ea99642ffa7f54e636d01e0bd78f51618e59d6b8b2a3d9f0115d07fb93"
+    "bytes": 869236,
+    "sha256": "92cf8d1c829fd5d3297a2e793cc92b8bd8ee3a764d73432190c3aec559972cdd"
   },
   "sc1_vendor_otif": {
     "path": "installers/sc1_vendor_otif/Vendor_OTIF_Scorecard_Setup.sql",
-    "bytes": 864595,
-    "sha256": "6bf6511dcbe5dbf1e8f2aa4e359bfbc684a4744557065252236c0974098c3cde"
+    "bytes": 867223,
+    "sha256": "0d00b98e481997914024bc3fb133bdf2fc4cad0798caf195ff8bf3e3f5f41ca8"
   },
   "intelligence_workspace": {
     "path": "installers/intelligence_workspace/Snowflake_Intelligence_Workspace_Setup.sql",
