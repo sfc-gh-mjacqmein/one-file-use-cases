@@ -106,8 +106,8 @@
   },
   "26_embedded_storefront": {
     "path": "installers/26_embedded_storefront/Embedded_Storefront_Setup.sql",
-    "bytes": 177301,
-    "sha256": "4f78658fc7edcc7942d8cc32bb863d68e0c0e30df391a71ae21dba0f0c755038"
+    "bytes": 802268,
+    "sha256": "e4916204bfdd57c4687bdecd79acc495273eb2d00b35acc5cfca1c0f8cc749ae"
   },
   "27_mobile_pricing": {
     "path": "installers/27_mobile_pricing/Mobile_Pricing_Setup.sql",
@@ -123,6 +123,16 @@
     "path": "installers/29_cdc_mirror_cost/CDC_Mirror_Cost_Setup.sql",
     "bytes": 814495,
     "sha256": "8af5c1a3d066d954a00c2eaaf276604988016468b93bdb23e228f1023f6f2c69"
+  },
+  "32_attribution_backfill_reconciliation": {
+    "path": "installers/32_attribution_backfill_reconciliation/Attribution_Backfill_Reconciliation_Setup.sql",
+    "bytes": 869678,
+    "sha256": "105a2a70578354b8deac17627975a46a9e242008d49cb61e6192dceab7c3b1f6"
+  },
+  "30_pay_bundle_reconciliation": {
+    "path": "installers/30_pay_bundle_reconciliation/Pay_Bundle_Reconciliation_Setup.sql",
+    "bytes": 849356,
+    "sha256": "9254a11af755c409fcaafb71d0f2aab81cf644392b8d24cb669a4c44dc3b6c84"
   },
   "35_ai_value_readiness": {
     "path": "installers/35_ai_value_readiness/AI_Value_Readiness_Setup.sql",
