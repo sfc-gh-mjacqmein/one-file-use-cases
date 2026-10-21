@@ -134,6 +134,11 @@
     "bytes": 849356,
     "sha256": "9254a11af755c409fcaafb71d0f2aab81cf644392b8d24cb669a4c44dc3b6c84"
   },
+  "31_metadata_snapshot_reconciliation": {
+    "path": "installers/31_metadata_snapshot_reconciliation/Metadata_Snapshot_Reconciliation_Setup.sql",
+    "bytes": 852286,
+    "sha256": "209434e91db63c64ba76812ad433b19f231c082f903fb232aab0c96c9bcb7a3e"
+  },
   "35_ai_value_readiness": {
     "path": "installers/35_ai_value_readiness/AI_Value_Readiness_Setup.sql",
     "bytes": 3473880,
