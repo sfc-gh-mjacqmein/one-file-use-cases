@@ -16,8 +16,8 @@
   },
   "03_generative_completion": {
     "path": "installers/03_generative_completion/Generative_Completion_Setup.sql",
-    "bytes": 753576,
-    "sha256": "bf637f9b9be092724630207d0468560ce8c3e891d70b393e4ad37294549f8e94"
+    "bytes": 962386,
+    "sha256": "ba99c2b9294f6ef7febef42521e739ce016c3410f4f04f2a4f8aac2cfb431419"
   },
   "04_snowpark_migration": {
     "path": "installers/04_snowpark_migration/Snowpark_Migration_Setup.sql",
@@ -26,8 +26,8 @@
   },
   "05_ml_migration": {
     "path": "installers/05_ml_migration/ML_Migration_Setup.sql",
-    "bytes": 790420,
-    "sha256": "094d93412674e4485efc1548b1a568a3215c0653797518d041c283cca6572953"
+    "bytes": 982471,
+    "sha256": "b12ec59591c48340a833b91e4ef2fbaaa125c4ae607e0112f6c15279d50bb0af"
   },
   "06_iceberg_migration": {
     "path": "installers/06_iceberg_migration/Iceberg_Migration.sql",
