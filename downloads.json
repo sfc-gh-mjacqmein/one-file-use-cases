@@ -11,8 +11,8 @@
   },
   "02_identity_resolution": {
     "path": "installers/02_identity_resolution/Identity_Resolution_Setup.sql",
-    "bytes": 753299,
-    "sha256": "545faf6f6798f13dc6d077b80659c46c70675aab60ce89cf67a9feedf74d661a"
+    "bytes": 993792,
+    "sha256": "bac292124c628fb5401e089c47e2c89102e12cc9ed6aa65cd789321b29a0ff26"
   },
   "03_generative_completion": {
     "path": "installers/03_generative_completion/Generative_Completion_Setup.sql",
@@ -101,8 +101,8 @@
   },
   "24_voice_of_customer": {
     "path": "installers/24_voice_of_customer/Voice_of_Customer_Setup.sql",
-    "bytes": 750108,
-    "sha256": "4338c47dfea8c641c7214b2ce7ba04592ca876af3265d3d260b3c7b9d0c1bbc9"
+    "bytes": 973227,
+    "sha256": "fff40011dc3098cd9adcc26ccf5ee489c0c8ecb65e2c7f7217fcaf9fc8879159"
   },
   "26_embedded_storefront": {
     "path": "installers/26_embedded_storefront/Embedded_Storefront_Setup.sql",
