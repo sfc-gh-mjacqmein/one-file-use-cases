@@ -164,11 +164,6 @@
     "bytes": 681209,
     "sha256": "4335cca67470122e3ffbdf66ec8397539a524960115b58c4b1ac5398414108a4"
   },
-  "l1_contract_vault": {
-    "path": "installers/l1_contract_vault/Contract_Intelligence_Vault_Setup.sql",
-    "bytes": 685038,
-    "sha256": "f1be6ee0e5c0e786607188e6cc12f7d8d0eadf1d1f06b33cc38a1ce078897ccc"
-  },
   "l2_legal_handoff": {
     "path": "installers/l2_legal_handoff/Legal_Handoff_Setup.sql",
     "bytes": 977666,
